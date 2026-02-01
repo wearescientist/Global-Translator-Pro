@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Global Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="brand">
+                <span class="logo-icon">🌐</span>
+                <h1>Global Translator</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="control-card">
+                <div class="status-row">
+                    <span class="status-dot active"></span>
+                    <span>Ready to Translate</span>
+                </div>
+
+                <div class="lang-setting">
+                    <label>Target Language</label>
+                    <select id="target-lang">
+                        <option value="zh">Chinese (Simplified)</option>
+                        <option value="en">English</option>
+                        <option value="ja">Japanese</option>
+                        <option value="ko">Korean</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="ru">Russian</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="features-list">
+                <h3>Active Features</h3>
+                <div class="feature-item">
+                    <input type="checkbox" id="toggle-discord" checked>
+                    <label>Discord Live Chat</label>
+                </div>
+                <div class="feature-item">
+                    <input type="checkbox" id="toggle-global" checked>
+                    <label>Global Selection Popup</label>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid #334155; margin: 12px 0;">
+
+                <div class="feature-item">
+                    <input type="checkbox" id="toggle-domain-auto">
+                    <label>Auto-Translate <span id="current-domain" style="color: #38bdf8;">this site</span></label>
+                </div>
+            </div>
+
+            <button id="btn-save" class="primary-btn">Save Settings</button>
+            <div id="msg-box" class="msg-box"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
