@@ -9,6 +9,10 @@ A powerful browser extension that provides seamless, real-time translation for D
 
 ![Screenshot](assets/icon128.png)
 
+<p align="center">
+  <b>🇺🇸 English</b> | <a href="./README.zh-CN.md">🇨🇳 简体中文</a>
+</p>
+
 ---
 
 ## ✨ Features
